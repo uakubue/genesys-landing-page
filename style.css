@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --pure-blue: hsl(210, 96%, 51%);
+    --normal-blue: #9dabd4;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    /* background: var(--pure-blue); */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 7em;
+    padding: 1em 3em;
+    font-weight: bold;
+    
+}
+nav span{
+    padding: 1em 1em;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+}
+nav span a {
+    text-decoration: none;
+    color: white;
+}
+
+nav span:hover{
+    background-color: var(--normal-blue);
+}
+section{
+    height: 100vh;
+}
+.main{
+    height: 100vh;
+    background-image: url(./assets/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.hero_text{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 2em;
+}
+.second_sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.third_sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.second_sec > .content_section{
+    flex: 0.5;
+    align-items: center;
+    justify-content: center;
+}
+.third_sec > .content_section{
+    flex: 0.5;
+    align-items: center;
+    justify-content: center;
+}
+.content_section > h2{
+    align-items: center;
+    text-align: center;
+    padding: 2em 2em 0;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content_section > p{
+    padding: 1em 6em 0;
+    text-align: center justify;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 1.5em;
+    color: gray;
+}
+
+.second_sec > .img_section{
+    flex: 0.5;
+}
+.third_sec > .img_section{
+    flex: 0.5;
+}
+.img_section > img{
+    width: 100%;
+}
+
+.image1_section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assets/images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: start;
+}
+.image2_section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assets/images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: start;
+}
+.div_content{
+    margin-top: 18em;
+}
+.div_content > h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 1em 6em;
+}
+.div_content > p{
+    text-align: center;
+    padding: 0 6em;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85, 78, 78);
+}
